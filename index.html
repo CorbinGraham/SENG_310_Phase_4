@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Ambient Noise<br>Generator</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Evaluation Strategy</a> 
+    <a href="#one" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Evaluation Plan</a> 
+    <a href="#two" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Consent Form</a> 
+    <a href="#three" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Task Description</a> 
+    <a href="#four" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Cognitive Walkthrough for tasks 1 and 4</a> 
+    <a href="#five" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Results</a>
+    <a href="#six" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Recommendations</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Company Name</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Introduction/Header -->
+  <div class="w3-container" style="margin-top:80px">
+    <h1 class="w3-jumbo"><b>Ambient Noise Generator Part 3</b></h1>
+
+    <div class="w3-row-padding">
+      <div class="w3-third">
+        <h3>V00865941</h3>
+      </div>
+
+      <div class="w3-third">
+        <h3>V00867500</h3>
+      </div>
+
+      <div class="w3-third">
+        <h3>V00874629</h3>
+      </div>
+    </div>
+
+    <div class="w3-row-padding">
+      <div class="w3-third">
+        <h3>V00875931</h3>
+      </div>
+
+      <div class="w3-third">
+        <h3>V00832107</h3>
+      </div>
+    </div>
+
+    <h1 class="w3-xxxlarge w3-text-red"><b>Evaluation Strategy</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>For our prototype that we developed in phase three, we were quite happy with the results that came through. The interface was easy-to-use and the simple layout made performing basic tasks efficient and effective. On top of that, we developed most of the functionality we wanted in our design requirements. The plan for this evaluation is to validate our opinions on the competency of the design as well as try some variations on the design to see what can be tweaked and what can be changed entirely. We knew the level of functionality would remain consistent, but by making changes in the interface (layout, colours, etc.) we can make observations during the testing that can lead us to what works the best in both variants. Also, what are the pros and cons of the design that are consistent between both prototypes? Lastly, how can we use the results we obtain to better our design and improve the prototype that we made? We also want to collect a lot of qualitative data to inform us of how to improve the user experience.
+    </p>
+  </div>
+
+  <!-- Implementation -->
+  <div class="w3-container" style="margin-top:80px" id="one">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Evaluation Plan</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>As stated previous, the intent of our evaluation is to refine the two prototypes we have and make observations that positively influence our final product. Since our design team is in agreement with the prototype, we need other people to either validate or criticize the interfaces and go from there. Since we'll be working with about 30 university students, the opportunity to evaluate all the potential stakeholders is severely limited. However, we can still test for good usability so that any potential users won't have trouble with the design of the interface. Since all of out users in this evaluation have high computer literacy, we can theorize that the tasks each user completes are done without much hesitation. They shouldn't be intimidated by our task description or evaluation scripts, which gives us some freedom in what we can get users to do. Of course, there's time constraints but we believe we can work within the 20 minutes given to us and get a lot of useful results. Going through all the features of the product should only take a few minutes.</p>
+    <p>We don't anticipate many usability issues, however we will still get the users to try out all of the functional aspects of our prototype. That includes: using the master fader and play/pause button, turning sounds on and off, changing intensities for sounds, and adjusting volume levels. We anticipate these tasks to be relatively straightforward, but we do expect criticisms to emerge in terms of the design and user experience. We want to collect data on what the user's preferences are for each interface, that way we can create a final design that takes the best of both prototypes. We want to measure the frequency and ease at which users are able to do the basic tasks. We also want to evaluate out choice of sounds for the prototype, and collect feedback with respect to which sounds worked and which didn't. We will get users to create their own soundscapes, and to see which sounds and intensities are the most popular. Also, we'd ask users which sounds they would like added to the interface.To facilitate the evaluation process, a consent form was created for users who would be asked to try out our product.</p>
+  </div>
+
+  <!-- Prototype Description -->
+  <div class="w3-container" id="two" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Consent Form</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>You are being invited to participate in a brief evaluation session of the “Ambient Noise Generator” and some of its prototypes.</p>
+    <p>The purpose of this evaluation session is to understand which prototype resonates most with potential users. This evaluation is important because it can aid in future development of the website. Participants are peers from SENG 310 who are on their own terms also evaluating their own designs.</p>
+    <p>If you agree to voluntarily participate in this evaluation, your participation will include executing given tasks on one of the “Ambient Noise Generator” prototypes and answering a few questions on the task. The entire process should take less than a few minutes. There are no known or anticipated risks to you by participating in this research.</p>
+    <p> Your participation in this research must be completely voluntary. If you do decide to participate, you may withdraw at any time without any consequences or any explanation. If you do withdraw from the study any data collected up to that point will be excluded from any analysis.</p>
+    <p>In terms of protecting your anonymity, your identity as a participant will be revealed only to the extent that we must ask you to sign a copy of this form, acknowledging that you understand the conditions of participation and that you have received payment for attending. This will be the only record of your identity as a participant.</p>
+    <p>Your confidentiality and the confidentiality of the data will be protected because there will be no means of connecting the data you provide with your individual identity. Data will be stored in a locked filing cabinet or in password-protected electronic form.</p>
+    <p>Your signature below indicates that you understand the above conditions of participation in this study and that you have had the opportunity to have your questions answered by the researchers and acknowledge receipt of payment.</p>
+    <div class="w3-row-padding">
+      <div class="w3-half">
+        <h3>Participant Signature</h3>
+      </div>
+
+      <div class="w3-half">
+        <h3>Date</h3>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Choices and Deviations -->
+  <div class="w3-container" id="three" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Task Description</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Participants are going to be placed in front of one of two different prototypes of the "Ambient Noise Generator". The participant will then be asked to accomplish one main task. The task is to create a soundscape using three specific ambient sounds at specific intensities and volume levels.</p>
+    
+    <p>The user should complete the following task:</p>
+    <ol>
+      <li>Turn on the fire, waves and bird ambient noises.</li>
+      <li>Set each of the sounds to a different intensity level.</li>
+      <li>Have each of the sounds set to about 50% and the master volume at 75%.</li>
+      <li>Attempt to export the created soundspace.</li>
+      <li>The user should then reset all values.</li>
+    </ol>
+
+    <p>Users will be timed on how long this task takes to complete and will be followed up with a few short questions about their experience and any other sounds that they may have wished to see. Some examples of the qualitative questions we will ask include:</p>
+    <ul>
+      <li>Did the icons behave as you expected? Were the sounds similar to what you expect?</li>
+      <li>Are there any sounds that you felt were unnecessary? Which sounds? Which aspects of the site, if any, did you find frustrating to use?</li>
+    </ul>
+
+    <p>We expect that we will collect the following quantitative results from our task description:</p>
+    <ul>
+      <li>How long does it take each user to complete each task.</li>
+      <li>How often do users correct or repeat actions.</li>
+    </ul>
+  </div>
+
+  <!-- Requirement 1 -->
+  <div class="w3-container" id="four" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Cognitive Walkthrough for tasks 1 and 4</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Todd is asked to complete a set of tasks on an ambient noise generator.</p>
+    
+    <!-- Cognitive walkthroughs -->
+    <!-- Task 1 -->
+    <ol>
+      <li><h4><b>Turn on the fire, waves, and bird ambient noises.</b></h4></li>
+      <p><i>The order of parts a) and b) do not matter.</i></p>
+
+      <ol type="a">
+        <li>User clicks on one of the fire, wave, or bird icons.</li>
+
+        <ul>
+          <li>Does Todd understand that this subtask is needed to reach his goal?</li>
+          <p>No, because there is no text prompt on the site or when users hover over the icon, thus the action required may not be obvious.</p>
+          <li>Is the control visible?</li>
+          <p>Yes, the icons are the largest items on the screen.</p>
+          <li>Are the controls a good guidance for the subtasks Todd has to complete?</li>
+          <p>Not necessarily. If he can link the picture of the icon with the corresponding sound then yes, otherwise no.</p>
+          <li>Will Todd get appropriate feedback?</li>
+          <p>Yes, the icon will change from faded to solid black. But since the sound is set to 0, he may not understand that the sound is now ‘on’</p>
+        </ul>
+
+        <li>Move the volume slider for that icon.</li>
+
+        <ul>
+          <li>Does Todd understand that this subtask is needed to reach his goal?</li>
+          <p>No, often modifying a volume slider isn’t necessary for playing a sound.</p>
+          <li>Is the control visible?</li>
+          <p>Yes, each slider is visible below its respective icon.</p>
+          <li>Once Todd sees the control will he understand that the subtask can be achieved using it?</li>
+          <p>Yes, volume sliders are common input controls.</p>
+          <li>Will Todd get appropriate feedback?</li>
+          <p>Not necessarily. If the corresponding icon is not clicked, then there will be no feedback aside from the movement of the slider. If the icon is clicked, volume will increase as the slider is moved.</p>
+        </ul>
+
+        <li>Turning on the remaining two sounds would just be repeating parts a) and b).</li>
+      </ol>
+    </ol>
+
+    <!-- Task 2 -->
+    <ol start="4">
+      <li><h4><b>Attempt to export the created soundspace.</b></h4></li>
+
+      <ol type="a">
+        <li>Click on the export icon in the top left corner.</li>
+
+        <ul>
+          <li>Does Todd understand that this subtask is needed to reach his goal?</li>
+          <p>Yes, though it may not be obvious at first what icon is required for the subtask.</p>
+          <li>Is the control visible?</li>
+          <p>No, the control might be too small and not noticeable at first glance.</p>
+          <li>Once Todd sees the control will he understand that the subtask can be achieved using it?</li>
+          <p>Not necessarily, as there is no text prompt or indication of what the control actually does.</p>
+          <li>Will Todd get appropriate feedback? </li>
+          <p>Yes, a popup will appear with export options.</p>
+        </ul>
+
+        <li>Input desired length using the “Length” text boxes.</li>
+
+        <ul>
+          <li>Does Todd understand that this subtask is needed to reach his goal?</li>
+          <p>Yes, there is a blank text box with hr, min and secs next to it which indicates the required input.</p>
+          <li>Is the control visible?</li>
+          <p>Yes, it is the first of the two prompts in the export pop up box.</p>
+          <li>Once Todd sees the control will he understand that the subtask can be achieved using it?</li>
+          <p>Yes, blank text boxes indicates they should be filled. And there’s a corresponding text prompt for each of them to indicate what should be inputed. </p>
+          <li>Will Todd get appropriate feedback?</li>
+          <p>Yes, when Todd enters a number from 1 to 9, the input will appear in the corresponding text box.</p>
+        </ul>
+
+        <li>Input desired file name using the “Filename” text box.</li>
+
+        <ul>
+          <li>Does Todd understand that this subtask is needed to reach his goal?</li>
+          <p>Yes, a text prompt of ‘filename’ is on the text box where users can provide their input.</p>
+          <li>Is this control visible?</li>
+          <p>Yes, the format of the pop up box in which the control is contained is very clean and simple.</p>
+          <li>Once Todd sees the control will he understand that the subtask can be achieved using it?</li>
+          <p>Yes, very similar controls are used for user logins on popular sites such as facebook or email.</p>
+          <li>Will Todd get appropriate feedback?</li>
+          <p>Yes, once he clicks on the text box the ‘filename’ will get replaced by whatever alphanumeric characters he typed and the export button will light up.</p>
+        </ul>
+
+        <li>Select the desired file type using the dropdown menu in the pop up box.</li>
+
+        <ul>
+          <li>Does Todd understand that this subtask is needed to reach his goal?</li>
+          <p>Yes, there’s a dropdown box next to the file type which by default is mp3 which indicates more options to be selected.</p>
+          <li>Is this control visible?</li>
+          <p>Yes, although the icon is smaller it is placed in the correct context next to the file type name which allows it to be noticed.</p>
+          <li>Once Todd sees the control will he understand that the subtask can be achieved using it?</li>
+          <p>Yes, similar controls are used for drop down menus so Todd will understand the action required to interact with it.</p>
+          <li>Will Todd get appropriate feedback?</li>
+          <p>Yes, upon clicking on the control a drop down menu will appear
+        with other file options that can be selected and after an option
+        is selected, the default file type will change to the recently
+        selected.</p>
+        </ul>
+
+        <li>Click the “Export” button.</li>
+
+        <ul>
+          <li>Does Todd understand that this subtask is needed to reach his goal?</li>
+          <p>Yes, he will notice that the export button will be lit up after he completed the above subtasks.</p>
+          <li>Is this control visible?</li>
+          <p>Yes, the control is bordered to be more salient</p>
+          <li>Once Todd sees the control will he understand that the subtask can be achieved using it?</li>
+          <p>Yes, the highlighted Export control will indicate that it should be clicked. </p>
+          <li>Will Todd get appropriate feedback?</li>
+          <p>Yes, the export pop up will disappear but it may not be obvious
+        That the task has been achieved because there’s no text
+        Indication of whether the export was successful or not.</p>
+        </ul>
+
+      </ol>
+    </ol>
+  </div>
+  
+  <!-- Requirement 2 -->
+  <div class="w3-container" id="five" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Results</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Our group conducted our user study in the lab session on the 18th of March. We would end up only having two users participate in the study due to time constraints. The users were split into two groups each with half our team. Each of the groups would try the task described above with the two different prototypes we created but due to time constraints not all features were able to be as well discussed as we would have liked. Additionally, users did not have a chance to try both prototypes as we would have wanted them to. For the user using the new prototype version, the following qualitative results were found.</p>
+
+    <ul>
+      <li>Waves sounds were hard to find since the icon was non-obvious.</li>
+      <li>Sounds overall were what was expected though.</li>
+      <li>It was not obvious that pressing the icons would start the sounds.</li>
+      <li>It additionally was confusing that the volume of each sound starts at 0 even after turning the sound on.</li>
+    </ul>
+
+    <p>For the user using the old prototype version, the following qualitative results were found.</p>
+
+    <ul>
+      <li>The user had troubles with volume slider starting at 0. The default volume should be in the middle.</li>
+      <li>The user perceived the river icon to be a waterfall not a river and the noise icon was not obvious to him.</li>
+      <li>There should be more animal sounds of different kinds and some thunder noises.</li>
+      <li>The user did not notice the top right hand bar at first; the top bar is hard to see compared to blue, and it can blend into the background of browsers using a dark color palette.</li>
+      <li>The user suggested that the background color should change as different sounds are being played to give more of a visual indication that sounds are being played.</li>
+    </ul>
+  </div>
+
+  <!-- Recommendations -->
+  <div class="w3-container" style="margin-top:80px" id="six">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Recommendations</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>In conclusion, some recommendations from the user studies that could be implemented to improve the prototype include clarifying the appearance of certain interfaces. For example, the icon looks and appearances should be updated so that it is more obvious what each sound is and the volume slider should be placed at an audible level at the start so that when users press play it starts playing immediately.</p>
+    <p>We found that the dropdown menu prototype was very easy to understand for new users, while some icons in the corresponding menu of the original prototype were difficult to understand. Switching to a dropdown menu style would improve learnability, but changing the icons to more recognizable ones could have the same effect. There are also other more general recommendations.</p>
+    <p>Some users struggled with figuring out input, so one recommendation would be to change the volume sliders to default at 50% or some level greater than 0% so users get more feedback when they first interact with the icons. In the same vein, adding on-hover interactions to the icons could give better hints that they can be interacted with. Some users found some icons not descriptive enough to determine which sounds they refer to. Potential fixes to this issue would be to change the icons, or give the icons visible titles of some form.</p>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
+<h1 class="w3-xlarge w3-text-red"><b>Requirement 5.1</b></h1>
